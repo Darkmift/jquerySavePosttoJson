@@ -1,0 +1,110 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .btn {
+        font-size: 0.8rem!important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .btn {
+        font-size: 0.6rem!important;
+    }
+}
+
+body {
+    padding: 80px 40px 40px 40px;
+}
+
+
+/**form css**/
+
+.form-span {
+    text-align: left !important;
+    width: 15% !important;
+}
+
+.input-group {
+    margin-left: 12.5% !important;
+    width: 75% !important;
+}
+
+.help-block {
+    text-align: left !important;
+    display: inline-block !important;
+    width: 100% !important;
+}
+
+input[readonly] {
+    cursor: text;
+    background-color: #fff;
+}
+
+textarea {
+    resize: none;
+}
+
+
+/***/
+
+.homeimg {
+    width: 10vw !important;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.panel-flexfix {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 10vw; */
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    height: auto;
+    box-shadow: 1px 1px 10px #898989;
+    border: 1px solid #e0e0e0;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 60%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.courseImg {
+    display: inline-block;
+    width: 5vw!important;
+    height: 5vh!important;
+    height: auto;
+}
+
+.courseP {
+    margin-left: 5px;
+    display: inline-block;
+}
